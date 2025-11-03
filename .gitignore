@@ -1,0 +1,45 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# === Android / Gradle ===
+.gradle/
+build/
+*/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# === Android Studio ===
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# === Système ===
+.DS_Store
+Thumbs.db
+
+# === Local SDK ===
+local.properties
+
+# === Logs ===
+*.log
+
+# === Cache / Fichiers temporaires ===
+*.tmp
+*.bak
+*.swp
+
+# === Git interne ===
+.git/

@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:layout_margin="5dp"
+    android:fitsSystemWindows="true"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/association_logo"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:contentDescription="@string/descr_logo_association"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:src="@drawable/ic_launcher_background"
+        android:background="@drawable/item_asso_background"/>
+    <TextView
+        android:id="@+id/association_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/nom_association"
+        android:textStyle="bold"
+        android:textSize="16sp" />
+</LinearLayout>

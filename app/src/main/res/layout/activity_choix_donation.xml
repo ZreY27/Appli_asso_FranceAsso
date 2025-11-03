@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    tools:context=".ChoixDonation">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/blue_gradient"
+        android:orientation="horizontal"
+        android:padding="15dp">
+
+        <ImageButton
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:contentDescription="@string/descr_btn_retour"
+            android:src="@drawable/baseline_arrow_back_ios_new_24" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/text_retour"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            android:text="@string/text_faire_un_don_a"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="15dp"/>
+
+        <TextView
+            android:id="@+id/association_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="25dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp" />
+
+        <ImageView
+            android:id="@+id/association_logo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/descr_logo_association"
+            android:src="@drawable/france_asso_sante_logo" />
+
+        <TextView
+            android:layout_width="333dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/textQUESTION_quel_type_de_don_souhaitez_vous_faire"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_unique"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/orange_boutons"
+            android:backgroundTintMode="src_in"
+            app:cornerRadius="20dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:paddingHorizontal="50dp"
+            android:paddingVertical="20dp"
+            android:text="@string/text_don_unique"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="333dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/textUPPER_ou"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_recurrent"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/orange"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:paddingHorizontal="50dp"
+            android:paddingVertical="20dp"
+            app:cornerRadius="20dp"
+            android:text="@string/text_don_recurrent"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+</LinearLayout>

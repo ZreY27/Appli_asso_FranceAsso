@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="darkBlue">#2E2882</color>
+    <color name="lightBlue">#00AAB4</color>
+    <color name="linkBlue">#2195F1</color>
+    <color name="orange">#EB4335</color>
+    <color name="orange_boutons">#EC5537</color>
+    <color name="grey">#E0E0E0</color>
+    <color name="lightBlue2">#C0EAED</color>
+    <color name="red">#FF0000</color>
+    <color name="grey_WCAG_RGAA">#595959</color>
+</resources>

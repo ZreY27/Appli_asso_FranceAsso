@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    tools:context=".PayementCBActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:orientation="horizontal"
+        android:background="@drawable/blue_gradient">
+        <ImageButton
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/descr_btn_retour"
+            android:src="@drawable/baseline_arrow_back_ios_new_24"
+            android:background="@null"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/text_retour"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/Règlement"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center"
+                android:text="@string/text_reglement_par_carte_bancaire"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <RelativeLayout
+                android:id="@+id/optionsCB"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                >
+                <ImageView
+                    android:id="@+id/optionMasterCard"
+                    android:layout_width="69dp"
+                    android:layout_height="match_parent"
+                    android:layout_toStartOf="@id/optionVISA"
+                    android:layout_marginEnd="15dp"
+                    android:contentDescription="@string/descr_image_mastercard"
+                    android:src="@drawable/mastercard_logo"
+                    />
+                <ImageView
+                    android:id="@+id/optionVISA"
+                    android:layout_width="69dp"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:contentDescription="@string/descr_image_visa"
+                    android:src="@drawable/visa_logo"
+                    />
+                <ImageView
+                    android:id="@+id/optionCB"
+                    android:layout_width="69dp"
+                    android:layout_height="match_parent"
+                    android:layout_toEndOf="@id/optionVISA"
+                    android:layout_marginStart="15dp"
+                    android:contentDescription="@string/descr_image_cb"
+                    android:src="@drawable/cb_logo"
+
+                    />
+
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <!-- Titulaire de la carte -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/text_titulaire_de_la_carte"
+                    app:boxStrokeColor="#6200EE"
+                    app:boxStrokeWidthFocused="2dp"
+                    app:boxBackgroundMode="outline"
+                    android:layout_marginBottom="12dp">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/edt_titulaire"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:inputType="textPersonName"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- Numéro de carte -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/text_numero_de_carte"
+                    app:boxStrokeColor="#6200EE"
+                    app:boxStrokeWidthFocused="2dp"
+                    app:boxBackgroundMode="outline"
+                    android:layout_marginBottom="12dp">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/edt_numero_carte"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:inputType="number"
+                        android:maxLength="16"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- Date d'expiration -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/text_date_expiration"
+                    app:boxStrokeColor="#6200EE"
+                    app:boxStrokeWidthFocused="2dp"
+                    app:boxBackgroundMode="outline"
+                    android:layout_marginBottom="12dp">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/edt_date_expiration"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:inputType="datetime"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- Cryptogramme -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/text_cryptogramme"
+                    app:boxStrokeColor="#6200EE"
+                    app:boxStrokeWidthFocused="2dp"
+                    app:boxBackgroundMode="outline"
+                    android:layout_marginBottom="20dp">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/edt_cryptogramme"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:inputType="numberPassword"
+                        android:maxLength="3"/>
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text_je_donne"
+                android:textColor="@color/white"
+                android:background="@color/orange"
+                android:layout_marginStart="60dp"
+                android:layout_marginEnd="60dp"
+                android:onClick="clickGive"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

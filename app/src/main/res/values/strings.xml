@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">SAE_App_Mobile_France_Assos_Sante</string>
+
+    <string name="nom_association">Nom de l\'association</string>
+    <string name="descr_btn_retour">bouton retour à la page précédente</string>
+    <string name="descr_logo_association">Logo de l\'association</string>
+    <string name="textUPPER_presentation">PRÉSENTATION</string>
+    <string name="text_chargement_description">Chargement de la description…</string>
+    <string name="text_faire_un_don">Faire un don</string>
+    <string name="text_toutes">Toutes</string>
+    <string name="text_maladies_chroniques">Maladies chroniques</string>
+    <string name="text_accidents_et_effets_secondaires">Accidents et effets secondaires</string>
+    <string name="text_handicap_et_dependance">Handicap et dépendance</string>
+    <string name="text_sante_mentale_et_bien_etre">Santé mentale et bien-être</string>
+    <string name="text_droits_des_patients">Droits des patients</string>
+    <string name="text_soutien_aux_aidants">Soutien aux aidants</string>
+    <string name="text_prevention_et_sante_publique">Prévention et santé publique</string>
+    <string name="text_retour">Retour</string>
+    <string name="text_faire_un_don_a">Faire un don à</string>
+    <string name="textQUESTION_quel_type_de_don_souhaitez_vous_faire">Quel type de don souhaitez-vous faire?</string>
+    <string name="text_don_unique">Don unique</string>
+    <string name="textUPPER_ou">OU</string>
+    <string name="text_don_recurrent">Don récurrent</string>
+    <string name="text_faire_un_don_unique_a">Faire un don unique à</string>
+    <string name="text_nom_association" translatable="false">-nom de l\'association-</string>
+    <string name="text_don_mensuel">Don mensuel</string>
+    <string name="text_don_annuel">Don annuel</string>
+    <string name="text_1_euro" translatable="false">1 €</string>
+    <string name="text_10_euros" translatable="false">10 €</string>
+    <string name="text_50_euros" translatable="false">50 €</string>
+    <string name="text_100_euros" translatable="false">100 €</string>
+    <string name="text_montant_libre">Montant libre (€)</string>
+    <string name="text_je_donne">Je donne</string>
+    <string name="text_connexion">Connexion</string>
+    <string name="text_entrez_votre_email_et_votre_mot_de_passe_afin_de_vous_connecter">Entrez votre email et votre mot de passe afin de vous connecter.</string>
+    <string name="text_email" translatable="false">Email</string>
+    <string name="text_mot_de_passe">Mot de passe</string>
+    <string name="text_mot_de_passe_oublie">Mot de passe oublié ?</string>
+    <string name="text_se_connecter">Se connecter</string>
+    <string name="text_ou_connectez_vous_avec">Ou connectez-vous avec</string>
+    <string name="descr_connexion_avec_google">Connexion avec Google</string>
+    <string name="descr_connexion_avec_facebook">Connexion avec Facebook</string>
+    <string name="textQUESTION_vous_n_avez_pas_de_compte">Vous n\'avez pas de compte ?</string>
+    <string name="text_inscrivez_vous">Inscrivez-vous</string>
+    <string name="text_recapitulatif_annuel">Récapitulatif annuel</string>
+    <string name="text_default_euro" translatable="false">0 €</string>
+    <string name="text_don_recurrent_pluriel">Dons récurrents</string>
+    <string name="text_don_unique_pluriel">Dons uniques</string>
+    <string name="text_s_inscrire">S\'inscrire</string>
+    <string name="text_creez_un_compte_et_continuez">Créez un compte et continuez !</string>
+    <string name="text_nom">Nom</string>
+    <string name="text_prenom">Prénom</string>
+    <string name="text_ou_inscrivez_vous_avec">Ou inscrivez-vous avec</string>
+    <string name="textQUESTION_vous_possedez_deja_un_compte">Vous possédez déjà un compte ?</string>
+    <string name="text_connectez_vous">Connectez-vous</string>
+    <string name="descr_inscription_avec_google">Inscription avec Google</string>
+    <string name="descr_inscription_avec_facebook">Inscription avec Facebook</string>
+    <string name="descr_menu" translatable="false">Menu</string>
+    <string name="descr_image_bouton_profil">Image bouton de profil cliquable pour se connecter ou se déconnecter</string>
+    <string name="text_reglement">Règlement</string>
+    <string name="text_choisissez_le_mode_de_paiement">Choisissez le mode de paiement</string>
+    <string name="descr_image_virement">Image d\'une banque correspondant à l\'option de payement : virement</string>
+    <string name="textUPPER_virement">VIREMENT</string>
+    <string name="descr_image_carte_bancaire">Image d\'une carte bancaire correspondant à l\'option de payement : carte bancaire</string>
+    <string name="textUPPER_carte_bancaire">CARTE BANCAIRE</string>
+    <string name="textUPPER_paypal" translatable="false">PAYPAL</string>
+    <string name="text_info_mode_paiement_selec">Information sur le mode de paiement sélectionné</string>
+    <string name="descr_image_paypal">Image bouton du logo de PayPal correspondant à l\'option de payement : PayPal</string>
+    <string name="text_reglement_par_carte_bancaire">Règlement par carte bancaire</string>
+    <string name="descr_image_mastercard">Image du logo mastercard</string>
+    <string name="descr_image_cb">Image du logo CB de la carte bancaire</string>
+    <string name="text_titulaire_de_la_carte">Titulaire de la carte</string>
+    <string name="descr_image_visa">Image du logo VISA des cartes bancaires</string>
+    <string name="text_numero_de_carte">Numéro de carte</string>
+    <string name="text_date_expiration">Date d\'expiration (MM/YY)</string>
+    <string name="text_cryptogramme">Cryptogramme (CVV)</string>
+    <string name="textDP_email">Email</string>
+    <string name="textDP_user_id">ID Utilisateur</string>
+    <string name="text_se_deconnecter">Se déconnecter</string>
+    <string name="descr_logo_application">Logo de l\'application France Assos Santé : La voix des usagers</string>
+    <string name="text_accueil">Accueil</string>
+    <string name="text_parametres">Paramètres</string>
+    <string name="text_a_propos">À propos</string>
+    <string name="text_mentions_legales">Mentions légales</string>
+    <string name="text_version_suspension" translatable="false">Version...</string>
+    <string name="text_voir_le_code_source">Voir le code source</string>
+    <string name="text_parametres_application">Paramètres de l\'application</string>
+    <string name="text_texte_agrandi">Texte agrandi</string>
+    <string name="text_langue_application">Langue de l\'application</string>
+    <string name="text_donateur">Donateur</string>
+    <string name="text_periodicite">Périodicité</string>
+    <string name="text_montant">Montant</string>
+    <string name="text_france_assos_sante" translatable="false">France Assos Santé</string>
+    <string name="bienvenue">Bienvenue 👋</string>
+    <string name="explorez_les_associations_soutenez_leurs_actions"><![CDATA[Explorez les associations & soutenez leurs actions]]></string>
+    <string name="text_voir_historique">Voir l\'historique des dons</string>
+    <string name="textDP_user_asso">Association</string>
+    <string name="textDP_user_name">Nom</string>
+    <string name="textDP_user_firstname">Prénom</string>
+    <string name="text_continuer_sans_se_connecter">Continuer sans se connecter</string>
+    <string name="text_avez_vous_deja_utilise_cette_application">Avez-vous déjà utilisé cette application ?</string>
+    <string name="text_rechercher_une_association">Rechercher une association...</string>
+    <string name="legal_text">Cette application est un projet pédagogique.\n\nToutes les données affichées sont fictives.\nAucune transaction réelle n’est effectuée.\n\nDroits d’auteur : © 2025 France Asso Santé (simulation)</string>
+    <string-array name="language_options">
+        <item>Français</item>
+        <item>English</item>
+    </string-array>
+</resources>

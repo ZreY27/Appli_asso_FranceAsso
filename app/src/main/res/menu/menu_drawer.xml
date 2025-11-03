@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:title="@string/text_accueil"
+        android:icon="@drawable/ic_home" />
+
+    <item
+        android:id="@+id/nav_settings"
+        android:title="@string/text_parametres"
+        android:icon="@drawable/ic_settings" />
+
+    <item
+        android:id="@+id/nav_about"
+        android:title="@string/text_a_propos"
+        android:icon="@drawable/ic_info" />
+
+    <item
+        android:id="@+id/nav_legal"
+        android:title="@string/text_mentions_legales"
+        android:icon="@drawable/ic_gavel" />
+
+</menu>

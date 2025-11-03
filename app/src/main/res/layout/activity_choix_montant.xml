@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChoixMontantActivity"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:orientation="horizontal"
+        android:background="@drawable/blue_gradient">
+        <ImageButton
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/descr_btn_retour"
+            android:src="@drawable/baseline_arrow_back_ios_new_24"
+            android:background="@null"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/text_retour"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/titre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_faire_un_don_unique_a"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/association_intitule"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:text="@string/text_nom_association"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp" />
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_don_mensuel" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_don_annuel" />
+    </RadioGroup>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="20dp">
+
+        <TextView
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:text="@string/text_1_euro"
+            android:textSize="17sp"
+            android:gravity="center"
+            android:id="@+id/text_montant01"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/bordure_choix_montant" />
+
+        <TextView
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:text="@string/text_10_euros"
+            android:textSize="17sp"
+            android:gravity="center"
+            android:id="@+id/text_montant02"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/bordure_choix_montant"/>
+
+        <TextView
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:text="@string/text_50_euros"
+            android:textSize="17sp"
+            android:gravity="center"
+            android:id="@+id/text_montant03"
+            android:layout_below="@id/text_montant01"
+            android:background="@drawable/bordure_choix_montant"/>
+
+        <TextView
+            android:id="@+id/text_montant04"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:text="@string/text_100_euros"
+            android:textSize="17sp"
+            android:gravity="center"
+            android:layout_below="@id/text_montant01"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/bordure_choix_montant"/>
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/edit_text_montant_libre"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:autofillHints=""
+        android:hint="@string/text_montant_libre"
+        android:textColorHint="@color/grey_WCAG_RGAA"
+        android:inputType="number"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:background="@drawable/bordure_choix_montant"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/button_donate"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/text_je_donne"
+        android:textSize="20sp"
+        app:cornerRadius="5dp"
+        android:backgroundTint="@color/orange"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="30dp"/>
+
+</LinearLayout>
